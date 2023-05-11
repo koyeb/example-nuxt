@@ -6,7 +6,7 @@
   </a>
   <h3 align="center">Koyeb Serverless Platform</h3>
   <p align="center">
-    Deploy a NuxtJS application on Koyeb
+    Deploy a Nuxt application on Koyeb
     <br />
     <a href="https://koyeb.com">Learn more about Koyeb</a>
     ·
@@ -17,16 +17,16 @@
 </div>
 
 
-## About Koyeb and the NuxtJS example application
+## About Koyeb and the Nuxt example application
 
 Koyeb is a developer-friendly serverless platform to deploy apps globally. No-ops, servers, or infrastructure management.
-This repository contains a NuxtJS application you can deploy on the Koyeb serverless platform for testing.
+This repository contains a Nuxt application you can deploy on the Koyeb serverless platform for testing.
 
-This example application is designed to show how a NuxtJS application can be deployed on Koyeb.
+This example application is designed to show how a Nuxt application can be deployed on Koyeb.
 
 ## Getting Started
 
-Follow the steps below to deploy and run the NuxtJS application on your Koyeb account.
+Follow the steps below to deploy and run the Nuxt application on your Koyeb account.
 
 ### Requirements
 
@@ -34,9 +34,9 @@ You need a Koyeb account to successfully deploy and run this application. If you
 
 ### Deploy using the Koyeb button
 
-The fastest way to deploy the NuxtJS application is to click the **Deploy to Koyeb** button below.
+The fastest way to deploy the Nuxt application is to click the **Deploy to Koyeb** button below.
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/koyeb/example-nuxtjs&branch=main&name=nuxtjs-on-koyeb)
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/koyeb/example-nuxtjs&branch=main&name=nuxtjs-on-koyeb&env[PORT]=3000&ports=3000;http;/)
 
 Clicking on this button brings you to the Koyeb App creation page with everything pre-set to launch this application.
 
@@ -51,12 +51,14 @@ Alternatively, you can manually create the application as described below.
 
 On the [Koyeb Control Panel](//app.koyeb.com/apps), click the **Create App** button to go to the App creation page.
 
-1. Select `GitHub` as the deployment method to use
-2. In the repositories list, select the repository you just forked
-3. Specify the branch to deploy, in this case `main`
-4. Then, give your App a name, i.e `nuxtjs-on-koyeb`, and click **Create App.**
+1. Click **Create App** in the Koyeb control panel.
+2. Select **GitHub** as the deployment option.
+3. Choose the GitHub **repository** and **branch** containing your application code.
+4. Name your service, for example `nuxt-service`.
+5. Name the App, for example `example-nuxt`.
+6. Click the **Deploy** button.
 
-You land on the deployment page where you can follow the build of your NuxtJS application. Once the build is completed, your application is being deployed and you will be able to access it via `<YOUR_APP_NAME>-<YOUR_ORG_NAME>.koyeb.app`.
+You land on the deployment page where you can follow the build of your Nuxt application. Once the build is completed, your application is being deployed and you will be able to access it via `<YOUR_APP_NAME>-<YOUR_ORG_NAME>.koyeb.app`.
 
 ## Contributing
 
