@@ -1,4 +1,4 @@
-[![example-nuxtjs](https://github.com/koyeb/example-nuxtjs/actions/workflows/deploy.yaml/badge.svg)](https://github.com/koyeb/example-nuxtjs/actions)
+[![example-nuxt](https://github.com/koyeb/example-nuxt/actions/workflows/deploy.yaml/badge.svg)](https://github.com/koyeb/example-nuxt/actions)
 
 <div align="center">
   <a href="https://koyeb.com">
@@ -36,7 +36,7 @@ You need a Koyeb account to successfully deploy and run this application. If you
 
 The fastest way to deploy the Nuxt application is to click the **Deploy to Koyeb** button below.
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/koyeb/example-nuxtjs&branch=main&name=nuxtjs-on-koyeb&env[PORT]=3000&ports=3000;http;/)
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/koyeb/example-nuxt&branch=main&name=nuxt-on-koyeb)
 
 Clicking on this button brings you to the Koyeb App creation page with everything pre-set to launch this application.
 
@@ -62,7 +62,7 @@ You land on the deployment page where you can follow the build of your Nuxt appl
 
 ## Contributing
 
-If you have any questions, ideas or suggestions regarding this application sample, feel free to open an [issue](//github.com/koyeb/example-nuxtjs/issues) or fork this repository and open a [pull request](//github.com/koyeb/example-nuxtjs/pulls).
+If you have any questions, ideas or suggestions regarding this application sample, feel free to open an [issue](//github.com/koyeb/example-nuxt/issues) or fork this repository and open a [pull request](//github.com/koyeb/example-nuxt/pulls).
 
 ## Contact
 

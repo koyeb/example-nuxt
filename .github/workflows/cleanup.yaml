@@ -17,4 +17,4 @@ jobs:
       - name: Cleanup Koyeb application
         uses: koyeb/action-git-deploy/cleanup@v1
         with:
-          app-name: nuxtjs-${{ github.event.ref }}
+          app-name: nuxt-${{ github.event.ref }}
