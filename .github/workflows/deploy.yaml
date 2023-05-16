@@ -22,6 +22,6 @@ jobs:
       - name: Build and deploy the application
         uses: koyeb/action-git-deploy@v1
         with:
-          app-name: nuxtjs-${{ github.ref_name }}
+          app-name: nuxt-${{ github.ref_name }}
           service-ports: "3000:http"
           service-routes: "/:3000"
