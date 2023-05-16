@@ -49,7 +49,7 @@ If you want to customize and enhance this application, you need to fork this rep
 If you used the **Deploy to Koyeb** button, you can simply link your service to your forked repository to be able to push changes.
 Alternatively, you can manually create the application as described below.
 
-On the [Koyeb Control Panel](//app.koyeb.com/apps), click the **Create App** button to go to the App creation page.
+On the [Koyeb Control Panel](//app.koyeb.com/), click the **Create App** button to go to the App creation page.
 
 1. Click **Create App** in the Koyeb control panel.
 2. Select **GitHub** as the deployment option.
