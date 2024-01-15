@@ -25,3 +25,4 @@ jobs:
           app-name: nuxt-${{ github.ref_name }}
           service-ports: "3000:http"
           service-routes: "/:3000"
+          skip-cache: true
